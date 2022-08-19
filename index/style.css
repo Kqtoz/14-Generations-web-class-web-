@@ -1,0 +1,16 @@
+*{
+    background-color: #24252A;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+a {
+    text-align: center;
+    font-style: none;
+    text-decoration: none;
+    color: white;
+    transition: all 0.4s ease 0.1s;
+}
+
+a:hover {
+    color: wheat;
+}

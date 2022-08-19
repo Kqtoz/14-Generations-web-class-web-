@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Source+Sans+Pro:wght@300&display=swap');
+
+img {width: 10%;
+height: 10%;
+}
+
+* {box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   background-color: #24252A;
+}
+
+li,a {
+  font-family:"montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px 10%;
+}
+
+.logo {cursor: pointer;}
+
+.nav_links {
+	list-style: none;
+}
+
+.nav_links li {
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.nav_links li a {
+	transition: all 0.3s ease 0s;
+	background-color: #1c515f;
+	border-radius: 5px;
+	background-size:50px, 50px ;
+}
+
+.nav_links li a:hover {
+	color: #0088a9;
+}
+.c {text-align: center;
+margin: auto;
+font-family: "source-sans-pro",sans-serif;
+color: azure;
+}
+
+.v {
+	text-align: center;
+	width: 50px;
+	height: 50px;
+	margin: auto;
+}
+
+.bg {
+	position: absolute;
+	height: 100px;
+	text-indent: -9999px;
+	background-repeat: no-repeat;
+}
+
+button {
+	padding: 9px 25px;
+	background-color: #0088a9;
+	border: none;
+	border-radius: 50px;
+	cursor:pointer;
+		transition: all 0.3s ease 0s;
+		color: white;
+		font-family:"source-sans-pro",sans-serif ;
+}
+
+button:hover {
+	background-color:#1c515f;}
+	.about,
+.service, h4 {
+	text-align: center;
+}
+.about p {
+	color: rgb(255, 255, 255);
+	word-spacing: 2px;
+	line-height: 25px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+
+.box .col-4 {
+	width:25%;
+	padding:20px;
+	box-sizing: border-box;
+	text-align: center;
+	float: left;
+}
+
+section h3 {
+	text-align: center;
+	padding:20px 0;
+	color: #ffffff;
+	margin-bottom: 25px;
+}
+
+.box {
+	color: #ffffff;
+}
+
+section{
+	font-family: "source-sans-pro",sans-serif;
+}
+
+.banner {
+	height: 60vh;
+	background-image: url('../img/banner.jpg');
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner:after {
+	content:'';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color:#24252A ;
+}
+.banner h2 {
+	color: #fff;
+	z-index: 1;
+	padding: 20px 25px;
+	border:3px solid #fff;
+}
+section {
+	padding:50px 0;
+}
+section h3 {
+	text-align: center;
+	padding:20px 0;
+	color: #148F77;
+	margin-bottom: 25px;
+}
+
+a {
+	color: #ffffff;
+}
+
+.a1 {
+	transition: all 0.3s ease 0s;
+}
+
+.a1:hover{
+	color: antiquewhite;
+}
+
+.a2 {
+	transition: all 0.3s ease 0s;
+}
+
+.a2:hover{
+	color: antiquewhite;
+}
